@@ -93,7 +93,7 @@ nav a:hover{
 @media (max-width: 768px){
     .about{
         width: 100%;
-        height: auto;
+        height: 100vh;
         padding: 3rem;
     align-items: center;
     text-align: center;
@@ -106,8 +106,9 @@ nav a:hover{
     }
     .about p{
         font-size: 1rem;
-        max-width: 90%;
+        max-width: 100%;
         margin: 0;
+        text-align: left;
     }
 }
 .education {
@@ -150,7 +151,7 @@ nav a:hover{
 @media (max-width: 768px){
     .education{
         flex-direction: column;
-        height: auto;
+        height: 100vh;
         width: 100%;
         padding: 2rem;
     }
@@ -186,12 +187,15 @@ nav a:hover{
       
     }
     .skills ul {
-        list-style-type: none;
+       list-style: circle;
         padding: 0;
         margin: 0;
         font-size: 1.5rem;
       display: inline;
-      /* color: white; */
+      
+    }
+    .skills li{
+        padding-bottom: 0.5rem;
     }
    
     .skills h3 {
@@ -219,7 +223,7 @@ nav a:hover{
     .skills{
         width: 100%;
         height: auto;
-        padding: 2rem;
+        padding: 1rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -338,6 +342,7 @@ nav a:hover{
       width: 100%;
       height: auto;
       padding: 2rem;
+      padding-bottom: 4rem;
       margin: 0;
 
     }
