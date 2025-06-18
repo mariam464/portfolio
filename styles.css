@@ -71,8 +71,8 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-items: center ;
-    align-items: flex-start;
-   padding-top: 8rem;
+    align-items: center;
+  
     
 }
 .about h2 {
@@ -171,7 +171,8 @@ nav a:hover{
   .skills {
     background-color: #314028;
     color: beige;
-    height: 100vh;
+      width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
