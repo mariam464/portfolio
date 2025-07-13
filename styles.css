@@ -37,17 +37,17 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #EAEFEF;
+    background-color: #f4f1e8;
 
 }
 .intro-container h1 {
     font-size: 5rem;
-    color: #333446;
+    color: #9b4819;
     margin-bottom: 1rem;
 }
 .intro-container p {
     font-size: 1.5rem;
-    color: #7F8CAA;
+    color: #333;
    
 }
 @media (max-width: 600px){
