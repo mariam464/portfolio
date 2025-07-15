@@ -177,10 +177,11 @@ nav a:hover{
     }
      .skills-list{
         padding: 1rem;
+         margin-left: 1rem;
      }
      
      .skills-list li{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
      }
 }
     .footer {
